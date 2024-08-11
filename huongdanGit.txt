@@ -1,0 +1,7 @@
+git clone linkGit // tai thu muc ve may
+
+git add // add cac file can luu
+git commit -m"noidung" // tao ra 1 bao cao cos ca noi dung va file can luu
+git push // day len github
+
+git checkout bracnkName // chuyen nhanh 
