@@ -5,3 +5,5 @@ git commit -m"noidung" // tao ra 1 bao cao cos ca noi dung va file can luu
 git push // day len github
 
 git checkout bracnkName // chuyen nhanh 
+
+git pull // update lai folder trong may tu github

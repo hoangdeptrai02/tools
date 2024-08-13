@@ -21,7 +21,7 @@ class ktrFolder:
     def ktrFol(self):
         for ex in img_extensions:
             self.imgs.extend(glob.glob(os.path.join(self.folder_path,ex)))
-        print("so luong anh dang co: " + str(len(self.imgs)))
+        
 
     def getPathImg(self):
         print("lay path anh")
