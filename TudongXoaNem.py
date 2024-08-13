@@ -52,7 +52,8 @@ class TudongXoaNem :
         #options.add_argument("--disable-extensions")
         #options.add_argument("--disable-infobars")
         #options.add_argument("--disable-notifications")
-    
+ 
+        self.driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
         # Lấy các log từ DevTools
         self.logs = self.driver.get_log('performance')
         
